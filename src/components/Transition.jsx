@@ -12,12 +12,12 @@ const TransitionComponent = ({ children }) => {
         timeout={500}
         onEnter={(node) => {
           gsap
-            .from(node, { y: 150 })
+            .from(node, { y: 50 , opacity: 0 })
             .play();
         }}
         onExit={(node) => {
           gsap
-            .to(node, { y: -150 })
+            .to(node, { y: -50 , opacity: 0 })
             .play();
         }}
       >

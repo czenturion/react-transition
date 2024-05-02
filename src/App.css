@@ -9,3 +9,22 @@
     background-position: center;
     z-index: -1;
 }
+
+.page {
+    margin-top: -80px;
+}
+
+.avatar {
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 785px) {
+    .background-app {
+    }
+}
